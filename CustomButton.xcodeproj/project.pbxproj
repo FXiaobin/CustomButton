@@ -13,6 +13,8 @@
 		D0031A2D1E7A5E0000B5E885 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0031A2B1E7A5E0000B5E885 /* Main.storyboard */; };
 		D0031A2F1E7A5E0000B5E885 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0031A2E1E7A5E0000B5E885 /* Assets.xcassets */; };
 		D0031A321E7A5E0000B5E885 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0031A301E7A5E0000B5E885 /* LaunchScreen.storyboard */; };
+		D0031A3C1E7A5E3300B5E885 /* CustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D0031A3B1E7A5E3300B5E885 /* CustomButton.m */; };
+		D0031A401E7A5F5E00B5E885 /* star@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0031A3F1E7A5F5E00B5E885 /* star@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		D0031A2E1E7A5E0000B5E885 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D0031A311E7A5E0000B5E885 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D0031A331E7A5E0000B5E885 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0031A3A1E7A5E3300B5E885 /* CustomButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomButton.h; sourceTree = "<group>"; };
+		D0031A3B1E7A5E3300B5E885 /* CustomButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomButton.m; sourceTree = "<group>"; };
+		D0031A3F1E7A5F5E00B5E885 /* star@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "star@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +63,7 @@
 		D0031A211E7A5E0000B5E885 /* CustomButton */ = {
 			isa = PBXGroup;
 			children = (
+				D0031A391E7A5E3300B5E885 /* ButtonClass */,
 				D0031A251E7A5E0000B5E885 /* AppDelegate.h */,
 				D0031A261E7A5E0000B5E885 /* AppDelegate.m */,
 				D0031A281E7A5E0000B5E885 /* ViewController.h */,
@@ -77,6 +83,16 @@
 				D0031A231E7A5E0000B5E885 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D0031A391E7A5E3300B5E885 /* ButtonClass */ = {
+			isa = PBXGroup;
+			children = (
+				D0031A3F1E7A5F5E00B5E885 /* star@2x.png */,
+				D0031A3A1E7A5E3300B5E885 /* CustomButton.h */,
+				D0031A3B1E7A5E3300B5E885 /* CustomButton.m */,
+			);
+			path = ButtonClass;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +155,7 @@
 			files = (
 				D0031A321E7A5E0000B5E885 /* LaunchScreen.storyboard in Resources */,
 				D0031A2F1E7A5E0000B5E885 /* Assets.xcassets in Resources */,
+				D0031A401E7A5F5E00B5E885 /* star@2x.png in Resources */,
 				D0031A2D1E7A5E0000B5E885 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -150,6 +167,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0031A3C1E7A5E3300B5E885 /* CustomButton.m in Sources */,
 				D0031A2A1E7A5E0000B5E885 /* ViewController.m in Sources */,
 				D0031A271E7A5E0000B5E885 /* AppDelegate.m in Sources */,
 				D0031A241E7A5E0000B5E885 /* main.m in Sources */,
